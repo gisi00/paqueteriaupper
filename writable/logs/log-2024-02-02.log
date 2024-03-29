@@ -1,0 +1,975 @@
+INFO - 2024-02-02 18:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 18:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 18:19:39 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 18:20:33 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 18:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 18:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 18:20:34 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 18:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 18:31:40 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 18:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 18:55:41 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 18:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 18:55:43 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 20:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 20:00:16 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:21:50 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:22:00 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:22:09 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:22:11 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:22:41 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:24:09 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:26:49 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:26:53 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:27:58 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:28:37 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:28:49 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:29:33 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:29:41 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:29:45 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:30:32 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 21:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 21:31:37 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:10:49 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:12:31 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:12:33 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:12:37 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:24:49 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:24:51 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:25:00 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:29:19 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:31:57 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:33:39 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:36:58 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:36:59 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:37:06 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:38:38 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 22:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:42:43 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 22:43:03 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 22:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:43:04 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:43:07 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 22:43:14 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 22:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:43:15 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 22:43:31 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 22:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:43:32 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:43:37 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:43:46 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:43:53 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:44:14 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:44:17 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:44:19 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:45:02 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:45:03 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:45:10 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:45:43 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 22:46:34 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-02 22:47:22 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeigniter\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->registro()
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#10 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-02 22:47:22 --> MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ingreso` (`correo`, `contrasena`, `id_privilegio`, `token`) VALUES (:correo:, :contrasena:, :id_privilegio:, :token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Usuarios.php(59): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->registro()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:47:22 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-02 22:47:26 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'usuario', '123for', 'ci', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->alta()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(32): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->alta()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-02 22:47:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `privilegios`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Usuarios.php(32): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->alta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 22:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 22:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:53:54 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 22:54:16 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 22:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:54:17 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:54:20 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:54:33 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:06 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:07 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:16 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:16 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:22 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:27 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:55 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:55:55 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:56:00 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:56:38 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:56:38 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:56:54 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:58:34 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:58:34 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:59:04 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:59:57 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 22:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 22:59:59 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:00:30 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:00:38 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:00:38 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:01:33 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:01:33 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:01:37 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:02:12 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:02:12 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:02:38 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:02:40 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:04 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 23:03:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\formulario_edita_contrasena.php on line 5.
+ 1 APPPATH\Views\usuarios\formulario_edita_contrasena.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\usuarios\\formulario_edita_contrasena.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\usuarios\\formulario_edita_contrasena.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuarios/formulario_edita_contrasena', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(101): view('usuarios/formulario_edita_contrasena', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->contrasena('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:11 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:13 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:15 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:17 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 23:03:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\formulario_edita_contrasena.php on line 5.
+ 1 APPPATH\Views\usuarios\formulario_edita_contrasena.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\usuarios\\formulario_edita_contrasena.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\usuarios\\formulario_edita_contrasena.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuarios/formulario_edita_contrasena', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(101): view('usuarios/formulario_edita_contrasena', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->contrasena('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:21 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:23 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 23:03:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\formulario_edita_contrasena.php on line 5.
+ 1 APPPATH\Views\usuarios\formulario_edita_contrasena.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\usuarios\\formulario_edita_contrasena.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\usuarios\\formulario_edita_contrasena.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuarios/formulario_edita_contrasena', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(101): view('usuarios/formulario_edita_contrasena', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->contrasena('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:29 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:41 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:03:54 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:15:35 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:15:37 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:16:05 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:16:24 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:16:27 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:16:33 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 23:16:35 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 23:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:16:35 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-02 23:17:18 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-02 23:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 23:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 23:17:19 --> [DEPRECATED] Required parameter $valor2 follows optional parameter $valor1 in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once()
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

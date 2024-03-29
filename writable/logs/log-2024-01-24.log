@@ -1,0 +1,480 @@
+CRITICAL - 2024-01-24 15:36:47 --> getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1259.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1259)
+ 2 APPPATH\ThirdParty\fpdf.php(1259): getimagesize('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsejpg('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 4 APPPATH\Controllers\Registro.php(198): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/assets/imagenes/margen.jpg', 31, 62)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:36:59 --> getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1259.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1259)
+ 2 APPPATH\ThirdParty\fpdf.php(1259): getimagesize('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsejpg('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 4 APPPATH\Controllers\Registro.php(198): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/assets/imagenes/margen.jpg', 31, 62)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('12')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:37:18 --> getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1259.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1259)
+ 2 APPPATH\ThirdParty\fpdf.php(1259): getimagesize('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsejpg('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 4 APPPATH\Controllers\Registro.php(198): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/assets/imagenes/margen.jpg', 31, 62)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('12')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 15:37:20 --> getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1259.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(http://localhost/codeigniter/public/assets/imagenes/margen.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1259)
+ 2 APPPATH\ThirdParty\fpdf.php(1259): getimagesize('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsejpg('http://localhost/codeigniter/public/assets/imagenes/margen.jpg')
+ 4 APPPATH\Controllers\Registro.php(198): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/assets/imagenes/margen.jpg', 31, 62)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('12')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:51:49 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:52:53 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:53:31 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:53:57 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:54:00 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:54:01 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:54:03 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:54:07 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:54:12 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:54:27 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 18:57:30 --> Undefined variable $data
+in APPPATH\Controllers\Usuarios.php on line 21.
+ 1 APPPATH\Controllers\Usuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Usuarios.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 19:01:10 --> Archivo inválido: usuarios/lista.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/lista.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuarios/lista', [], true)
+ 3 APPPATH\Controllers\Usuarios.php(21): view('usuarios/lista')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 19:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 20:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-24 21:49:25 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 21:49:25 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 21:50:36 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 21:50:36 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegios`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 21:50:37 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 21:50:37 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegios`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 21:51:46 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 21:51:46 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegio`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 21:51:48 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 21:51:48 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegio`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:01:45 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'usuario', '123for', 'ci', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#3 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-24 22:01:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegio`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:31:14 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 22:31:14 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:31:22 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 22:31:22 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:39:44 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 22:39:44 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id`=`ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:52:28 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 22:52:28 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegio`.`id` = `ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:53:15 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 22:53:15 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id` = `ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:54:35 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 22:54:35 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id` = `ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 22:57:43 --> mysqli_sql_exception: Not unique table/alias: 'privilegios' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ingreso...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ingreso...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ingreso...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-24 22:57:43 --> Not unique table/alias: 'privilegios'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ingreso`.`id`, `ingreso`.`correo`, `ingreso`.`id_privilegio`, `privilegios`.`id`, `privilegios`.`privilegio`
+FROM `privilegios`
+JOIN `privilegios` ON `privilegios`.`id` = `ingreso`.`id_privilegio`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios.php(24): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

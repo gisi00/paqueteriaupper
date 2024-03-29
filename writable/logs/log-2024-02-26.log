@@ -1,0 +1,1077 @@
+CRITICAL - 2024-02-26 20:23:00 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-02-26 20:23:01 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\codeigniter\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Helpers\number_helper.php(55): format_number(10.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\codeigniter\system\Debug\BaseExceptionHandler.php(145): number_to_size(10.0, 2)
+#2 C:\xampp\htdocs\codeigniter\app\Views\errors\html\error_exception.php(361): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(10485760)
+#3 C:\xampp\htdocs\codeigniter\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\codeigniter\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\codeigniter\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\codeigniter\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2024-02-26 19:30:11 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 19:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 19:30:12 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:00:52 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:00:53 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:00:53 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:01:08 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:01:08 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:01:08 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:01:24 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:01:25 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:01:25 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:01:45 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:01:46 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:01:46 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:02:02 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:02:02 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:02:03 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:04:09 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:04:10 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:04:10 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:08:22 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:08:22 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:08:22 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:08:30 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:08:30 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:08:30 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:09:05 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:09:05 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:09:37 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:09:37 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:09:50 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:09:50 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:13:22 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:13:22 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:13:54 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:13:55 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:13:55 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:14:54 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:14:54 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:07 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:16:07 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:08 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:16:08 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:10 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:16:10 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:12 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:13 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:16:13 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:15 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:15 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:16:15 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:23 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:16:24 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:26 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:16:26 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:16:26 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:17:11 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:17:11 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:17:14 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:17:14 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:17:14 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:17:28 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:17:28 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:20:19 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:20:19 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:20:28 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:20:28 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:20:28 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:21:02 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:21:03 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:21:04 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:21:04 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:21:11 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:21:11 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:21:11 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:21:55 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:21:55 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:22:01 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:22:01 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:22:01 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:31:49 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:31:49 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:31:49 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:31:58 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:31:58 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:31:58 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:34:34 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:34:35 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:34:35 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:38:47 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:38:47 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:38:54 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:38:54 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:38:54 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:28 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:41:28 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:33 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:33 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:41:33 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:35 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:36 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:41:36 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:37 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:37 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:41:37 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:39 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:41:39 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:41:39 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:44:39 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:44:39 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:44:42 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:44:43 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:44:43 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:44:57 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:44:57 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:44:57 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:45:16 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:45:16 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:45:16 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:45:22 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:45:23 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:46:33 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:46:33 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:49:00 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:49:00 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:55:22 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:55:22 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:56:09 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:56:12 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:56:18 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:56:27 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:56:30 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:57:33 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:57:34 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:58:03 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:58:03 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:58:03 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:01 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:02 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:09 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:10 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:10 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:12 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:12 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:12 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:38 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:38 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:42 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:42 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:44 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:44 --> [DEPRECATED] Creation of dynamic property App\Filters\Noauth::$ingreso is deprecated in APPPATH\Filters\Noauth.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Noauth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:45 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-26 21:59:52 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 21:59:53 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 22:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-26 22:00:31 --> [DEPRECATED] Optional parameter $valor1 declared before required parameter $valor2 is implicitly treated as a required parameter in APPPATH\Helpers\usuarios_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(667): include_once('C:\\xampp\\htdocs\\codeigniter\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\BaseController.php(57): helper([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

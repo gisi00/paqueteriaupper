@@ -1,0 +1,56 @@
+CRITICAL - 2024-01-13 17:29:56 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 17:30:33 --> Undefined variable $name¨
+in APPPATH\Views\otro.php on line 5.
+ 1 APPPATH\Views\otro.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name¨', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\otro.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\otro.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('otro', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('otro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->otra()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 17:54:41 --> Undefined variable $routers
+in APPPATH\Config\Routes.php on line 15.
+ 1 APPPATH\Config\Routes.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routers', 'C:\\xampp\\htdocs\\codeigniter\\app\\Config\\Routes.php', 15)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\codeigniter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 19:36:02 --> Call to undefined function suma()
+in APPPATH\Views\valores.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('valores', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('valores', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->sitio()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 19:39:41 --> syntax error, unexpected token "echo"
+in APPPATH\Views\valores.php on line 16.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('valores', [], true)
+ 3 APPPATH\Controllers\Home.php(23): view('valores', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->sitio()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 19:39:59 --> syntax error, unexpected double-quoted string "<br>", expecting "," or ";"
+in APPPATH\Views\valores.php on line 15.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('valores', [], true)
+ 3 APPPATH\Controllers\Home.php(23): view('valores', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->sitio()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

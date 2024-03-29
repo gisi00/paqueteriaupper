@@ -1,0 +1,43 @@
+CRITICAL - 2024-01-16 00:01:34 --> Undefined variable $contaador
+in APPPATH\Views\personas\cuerpo.php on line 25.
+ 1 APPPATH\Views\personas\cuerpo.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contaador', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\personas\\cuerpo.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\personas\\cuerpo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('personas/cuerpo', [], true)
+ 5 APPPATH\Controllers\Registro.php(28): view('personas/cuerpo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 00:02:03 --> Undefined variable $contaador
+in APPPATH\Views\personas\cuerpo.php on line 25.
+ 1 APPPATH\Views\personas\cuerpo.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contaador', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\personas\\cuerpo.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\personas\\cuerpo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('personas/cuerpo', [], true)
+ 5 APPPATH\Controllers\Registro.php(28): view('personas/cuerpo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 19:54:07 --> Archivo inválido: persona/encabezado.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('persona/encabezado.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('persona/encabezado', [], true)
+ 3 APPPATH\Controllers\Registro.php(32): view('persona/encabezado')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:15:50 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gatVar()
+in APPPATH\Controllers\Registro.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->registro()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:56:04 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gatVar()
+in APPPATH\Controllers\Registro.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->registro()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

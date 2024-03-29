@@ -1,0 +1,250 @@
+INFO - 2024-01-20 17:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 17:08:47 --> Undefined variable $dato_persona
+in APPPATH\Controllers\Registro.php on line 87.
+ 1 APPPATH\Controllers\Registro.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato_persona', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->eliminar('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 17:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 17:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 17:15:23 --> Undefined variable $nuevoNombre
+in APPPATH\Controllers\Registro.php on line 73.
+ 1 APPPATH\Controllers\Registro.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nuevoNombre', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->registro()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 17:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 17:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 17:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 17:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 17:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 17:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 18:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 18:52:23 --> Undefined variable $flag
+in APPPATH\Controllers\Registro.php on line 129.
+ 1 APPPATH\Controllers\Registro.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flag', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 18:54:19 --> Undefined variable $flag
+in APPPATH\Controllers\Registro.php on line 129.
+ 1 APPPATH\Controllers\Registro.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flag', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 18:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 18:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 18:54:31 --> Undefined variable $flag
+in APPPATH\Controllers\Registro.php on line 129.
+ 1 APPPATH\Controllers\Registro.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flag', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 18:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 18:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 18:55:38 --> Undefined variable $flag
+in APPPATH\Controllers\Registro.php on line 129.
+ 1 APPPATH\Controllers\Registro.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flag', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 18:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 18:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 18:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 18:58:01 --> Undefined variable $flag
+in APPPATH\Controllers\Registro.php on line 129.
+ 1 APPPATH\Controllers\Registro.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $flag', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 18:59:14 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$isValid
+in APPPATH\Controllers\Registro.php on line 132.
+ 1 APPPATH\Controllers\Registro.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\Files\\UploadedFile::$isValid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 19:01:34 --> Call to a member function getRandomName() on bool
+in APPPATH\Controllers\Registro.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 19:06:02 --> El archivo proporcionado no es un tipo de imagen compatible.
+in SYSTEMPATH\Images\Image.php on line 105.
+ 1 SYSTEMPATH\Images\Image.php(105): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(150): CodeIgniter\Images\Image->getProperties(false)
+ 3 APPPATH\Controllers\Registro.php(142): CodeIgniter\Images\Handlers\BaseHandler->withFile('./public/images/1705777561_b404dbe9de4a961f93d2.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 19:07:32 --> El archivo proporcionado no es un tipo de imagen compatible.
+in SYSTEMPATH\Images\Image.php on line 105.
+ 1 SYSTEMPATH\Images\Image.php(105): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(150): CodeIgniter\Images\Image->getProperties(false)
+ 3 APPPATH\Controllers\Registro.php(142): CodeIgniter\Images\Handlers\BaseHandler->withFile('./public/images/1705777652_3ca1491d5a5c9fe7de08.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 19:10:45 --> El archivo proporcionado no es un tipo de imagen compatible.
+in SYSTEMPATH\Images\Image.php on line 105.
+ 1 SYSTEMPATH\Images\Image.php(105): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(150): CodeIgniter\Images\Image->getProperties(false)
+ 3 APPPATH\Controllers\Registro.php(142): CodeIgniter\Images\Handlers\BaseHandler->withFile('./public/images/1705777845_dc9bfeece74b30a3d5a4.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 19:30:17 --> El archivo proporcionado no es un tipo de imagen compatible.
+in SYSTEMPATH\Images\Image.php on line 105.
+ 1 SYSTEMPATH\Images\Image.php(105): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(150): CodeIgniter\Images\Image->getProperties(false)
+ 3 APPPATH\Controllers\Registro.php(143): CodeIgniter\Images\Handlers\BaseHandler->withFile('./public/images/1705779017_d3bb5deb3ec4d665e54f.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:33:49 --> mime_in[
+                    imagen,image/jpg,image/jpeg,image/png,image/gif] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg,image/jpeg,image/png,image/gif]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 19:34:04 --> mime_in[
+                    imagen,image/jpg,image/jpeg,image/png,image/gif] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg,image/jpeg,image/png,image/gif]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:38:19 --> mime_in[
+                    imagen,image/jpg] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:41:33 --> mime_in[
+                    imagen,image/jpg] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:47:12 --> mime_in[
+                    imagen,image/jpg] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('image', 'image', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:47:38 --> mime_in[
+                    image,image/jpg] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    image,image/jpg]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('image', 'image', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:49:05 --> mime_in[
+                    imagen,image/jpg] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:50:43 --> mime_in[
+                    imagen,image/jpg] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 19:51:15 --> mime_in[
+                    imagen,image/jpg] no es una regla de validación válida.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[
+                    imagen,image/jpg]')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Registro.php(113): CodeIgniter\Controller->validate('valida_imagen')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-20 19:58:26 --> Call to undefined function App\Controllers\setFlashdata()
+in APPPATH\Controllers\Registro.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-20 19:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 19:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 20:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 20:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

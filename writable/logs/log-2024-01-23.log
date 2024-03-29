@@ -1,0 +1,176 @@
+CRITICAL - 2024-01-23 19:55:38 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 19:57:52 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 19:58:46 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 19:58:52 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 19:58:53 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 19:58:54 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:01:31 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:03:41 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:03:42 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:05:31 --> syntax error, unexpected variable "$pdf"
+in APPPATH\Controllers\Registro.php on line 185.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Registro.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Registro')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Registro')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Registro', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-23 20:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 20:14:41 --> fopen(http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1278)
+ 2 APPPATH\ThirdParty\fpdf.php(1278): fopen('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png', 'rb')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsepng('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png')
+ 4 APPPATH\Controllers\Registro.php(193): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png', 124, 124, 50, 32)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:15:21 --> fopen(http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1278)
+ 2 APPPATH\ThirdParty\fpdf.php(1278): fopen('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png', 'rb')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsepng('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png')
+ 4 APPPATH\Controllers\Registro.php(193): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png', 62, 124, 50, 32)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:15:41 --> fopen(http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1278)
+ 2 APPPATH\ThirdParty\fpdf.php(1278): fopen('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png', 'rb')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsepng('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png')
+ 4 APPPATH\Controllers\Registro.php(193): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/images/imagenes/1705770882_98dd33604037f60428a6.png', 62, 124, 50, 32)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:15:46 --> fopen(http://localhost/codeigniter/public/images/imagenes/1705777054_038ed19af32149abe2cb.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/codeigniter/public/images/imagenes/1705777054_038ed19af32149abe2cb.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1278)
+ 2 APPPATH\ThirdParty\fpdf.php(1278): fopen('http://localhost/codeigniter/public/images/imagenes/1705777054_038ed19af32149abe2cb.png', 'rb')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsepng('http://localhost/codeigniter/public/images/imagenes/1705777054_038ed19af32149abe2cb.png')
+ 4 APPPATH\Controllers\Registro.php(193): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/images/imagenes/1705777054_038ed19af32149abe2cb.png', 62, 124, 50, 32)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('16')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 20:18:08 --> fopen(http://localhost/codeigniter/public/images/images/1705777054_038ed19af32149abe2cb.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/codeigniter/public/images/images/1705777054_038ed19af32149abe2cb.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\codeigniter\\app\\ThirdParty\\fpdf.php', 1278)
+ 2 APPPATH\ThirdParty\fpdf.php(1278): fopen('http://localhost/codeigniter/public/images/images/1705777054_038ed19af32149abe2cb.png', 'rb')
+ 3 APPPATH\ThirdParty\fpdf.php(894): App\ThirdParty\FPDF->_parsepng('http://localhost/codeigniter/public/images/images/1705777054_038ed19af32149abe2cb.png')
+ 4 APPPATH\Controllers\Registro.php(193): App\ThirdParty\FPDF->Image('http://localhost/codeigniter/public/images/images/1705777054_038ed19af32149abe2cb.png', 62, 124, 50, 32)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('16')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 23:25:32 --> Call to undefined method App\Controllers\Registro::SetDrawColor()
+in APPPATH\Controllers\Registro.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 23:26:07 --> Call to undefined method App\Controllers\Registro::SetFillColor()
+in APPPATH\Controllers\Registro.php on line 198.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 23:26:09 --> Call to undefined method App\Controllers\Registro::SetFillColor()
+in APPPATH\Controllers\Registro.php on line 198.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 23:27:22 --> Call to undefined method App\Controllers\Registro::SetDrawColor()
+in APPPATH\Controllers\Registro.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->gafete('13')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-23 23:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
